@@ -4,10 +4,10 @@ To stream video using python with as little non-standard libraries as possible.
 
 
 Server requires:
-cv2 or pygame for video
+cv2 or pygame for video,
 pyaudio and audioop for displaying sound intensity
 
 client requires:
-numpy, PIL and cv2 for video
+numpy, PIL and cv2 for video if server uses cv2
 
 
