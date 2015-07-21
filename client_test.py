@@ -11,9 +11,8 @@ root = Tkinter.Tk()
 lmain = Tkinter.Label(root)
 lmain.pack()
 while True:
-    #temp = test.get_frame()
-    #lmain.imgtk = temp
-    #lmain.configure(image=temp)
-    #root.update()
-    print(test.get_sound_intensity())
+    temp = test.get_frame()
+    lmain.imgtk = temp
+    lmain.configure(image=temp)
+    root.update()
     time.sleep(0.01)
