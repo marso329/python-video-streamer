@@ -12,7 +12,7 @@ class Streamer():
         self.__path="//dev/video0"
         #everything for the interal logger
         self._logger = logging.getLogger('Brick_logger')
-        self._logger.setLevel(logging.INFO)
+        self._logger.setLevel(logging.WARNING)
         self._console_handler = logging.StreamHandler()
         self._console_handler.setLevel(logging.NOTSET)
         self._formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
