@@ -126,7 +126,6 @@ class Streamer():
                 data[1][i]=self.checkSubelement(data[1][i])
         self._logger.info("command after checksubelement: "+str(data))
         if data[0]=="get_frame":
-            print(self.__mode)
             self.__get[self.__mode]()
         elif data[0]=="set_mode":
             self.set_mode(data[1])
