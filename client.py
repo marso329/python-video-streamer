@@ -187,7 +187,7 @@ class Receiver():
         return ImageTk.PhotoImage(image=im)
     
     def convert_pygame(self,data):
-        return ImageTk.PhotoImage(Image.fromstring("RGBA",self.__size,bytes(data)))
+        return ImageTk.PhotoImage(Image.frombytes("RGBA",self.__size,bytes(data)))
     
     #returns a photoimage object compliant with tkinter
     def get_frame(self):

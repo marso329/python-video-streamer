@@ -6,7 +6,7 @@ if sys.version_info[0]>2:
 else:
     import Tkinter 
 
-test = Receiver("10.42.0.3", "pygame", (320, 240))
+test = Receiver("127.0.0.1", "pygame", (320, 240))
 root = Tkinter.Tk()
 lmain = Tkinter.Label(root)
 lmain.pack()
