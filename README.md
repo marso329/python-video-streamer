@@ -8,6 +8,6 @@ cv2 or pygame for video,
 pyaudio and audioop for displaying sound intensity
 
 client requires:
-numpy, PIL and cv2 for video if server uses cv2
+numpy, PIL,PIL.ImageTk and cv2 for video if server uses cv2
 
 
